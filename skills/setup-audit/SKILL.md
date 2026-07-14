@@ -14,8 +14,7 @@ description: >-
 
 A health check for the agent environment itself - the meta layer most setups
 never verify until something silently stops working. (The "grade your setup"
-idea, borrowed from Ruflo's MetaHarness audit, kept to a static dependency-free
-check.)
+idea kept to a static, dependency-free check.)
 
 ## What it checks
 - **Skills** - every `~/.claude/skills/*/SKILL.md` parses as frontmatter and has
